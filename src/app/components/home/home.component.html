@@ -1,1 +1,21 @@
 <app-footer></app-footer>
+
+<!-- <img [src]="sekiroUrl" /> -->
+
+{{ count() }}
+
+<button (click)="teste()">Clique aqui</button> <input type="text" name="" id="">
+
+<p>{{ data }}</p>
+
+@if(count() > 5){
+<h2>Seu nome é {{ name() }}</h2>
+} @else if (count() < 6){ <h2>Seu nome é {{ name() }}: Shadows Die Twice</h2>
+    }
+
+    @for (item of lista; track item) {
+    <p>{{ item }}</p>
+
+    } @empty {
+    <p>Vazio!!!</p>
+    }
